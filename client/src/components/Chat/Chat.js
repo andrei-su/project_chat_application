@@ -9,7 +9,7 @@ import Input from '../Input/Input';
 
 import './Chat.css';
 
-const ENDPOINT = 'https://project-chat-application-p627.vercel.app/';
+const ENDPOINT = process.env.REACT_APP_API_URL;
 
 let socket;
 
